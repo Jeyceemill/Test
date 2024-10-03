@@ -77,6 +77,7 @@ header nav ul li {
 header .contato button:hover {
     box-shadow: 0px 0px 8px #13567c;
 }
+/* tirar  */
 
 nav ul li {
     float: left;
@@ -135,6 +136,8 @@ section.topo-do-site .flex {
 }
 
 @keyframes flutuar {
+
+    /* tirar esse keyframes  */
     0% {
         top: 0;
     }
@@ -309,7 +312,7 @@ form {
     margin-top: 40px;
 }
 
-form input,
+form input /* } tirar  esse form input */
 form textarea {
     width: 100%;
     background-color: #294057;
@@ -323,10 +326,10 @@ form textarea {
 
 form input::placeholder {
     color: aliceblue;
-}
+/* } tirar  esse form input */
 
 form textarea {
-    resize: none;
+    
     max-height: 70px;
 
 

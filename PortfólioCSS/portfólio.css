@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color:  rgba(33, 37, 88, 0.52);
+
+
+}
+header a {
+    color: red;
+    text-decoration: none;
+    margin: 5em 2em;
+ 
+}
+header {
+    width: 100vw;
+    height: 9vh;
+    background-color: rgba(25, 38, 215, 0.52);
+    
+}
+
+nav {
+    width: 100vw;
+    height: 9vh;
+    padding-top: 1em;
+
+
+}
+
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+
+.sobre  h2  {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.sobre p {
+    text-align: justify;
+    padding: 2em;
+
+}
+
+
+.contatos {
+    
+}
+
+.curriculo h1 {
+    text-align: center;
+    padding: 3em;
+
+}
+
+main section   h1{
+    text-align: center;
+    
+}
+
+habilidades {
+    display: flex;
+    justify-content: center;
+}
