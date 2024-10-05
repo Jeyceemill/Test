@@ -1,24 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
 body {
-    background-color:  rgba(33, 37, 88, 0.52);
+    background-color:  rgba(245, 245, 245, 0.701);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 
 
 }
 header a {
-    color: red;
+    color:  #000000;
     text-decoration: none;
     margin: 5em 2em;
+    
  
 }
 header {
     width: 100vw;
     height: 9vh;
-    background-color: rgba(25, 38, 215, 0.52);
+    background-color: rgba(84, 45, 108, 0.701);
+    text-align: left;
+    
     
 }
 
@@ -40,34 +46,193 @@ header nav ul li {
 }
 
 
-.sobre  h2  {
-    text-align: justify;
+
+.sobreh1 {
+    text-align: left;
+    font-family: arial;
+    padding: 1em;
+    color: rgba(25, 38, 215, 0.52);
+    font-size: 25px;
+    
+
+}
+.sobreh2 {
+    text-align: left;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.sobre p {
-    text-align: justify;
+.habilidades {
+    justify-content: left;
+    font-family: arial;
+    font-size: 20px;
+    padding: 1em;
+}
+
+footer {
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(84, 60, 100, 0.701);
+    text-align: center;
+    flex-direction: row;
+    margin-top: 4%;
+    padding: 8vw;
+    
+   
+    
+    
+    
+    
+}
+
+.curriculoh1 {
+    text-align: left;
+    font-family: arial;
     padding: 2em;
 
 }
 
-
-.contatos {
+.experiencia {
+    text-align: justify;
+    font-family:arial;
+    padding: 2em;
+    
     
 }
 
-.curriculo h1 {
-    text-align: center;
-    padding: 3em;
+.formacao {
+    text-align: justify;
+    font-family:arial;
+    padding: 2em;
+ 
+}
+
+.cursos {
+    text-align: justify;
+    font-family:arial;
+    padding: 2em;
+    
 
 }
 
-main section   h1{
-    text-align: center;
+.curso-instituicao {
+    text-align: justify;
+    font-family:arial;
+    padding: 2em;
+   
+    
+
+}
+
+.conhecimentos {
+    text-align: justify;
+    font-family:arial;
+    padding: 2em;
+   
     
 }
+.borda {
+    border-bottom: 0.3em solid;
+  
+}
 
-habilidades {
+
+
+/*  parte do git hub e linkedin */
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 4em;
+  }
+  
+  .Projeto {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .Projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Projeto img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+   
+   
+  }
+
+  .Projeto a.clique {
+    font-size: 1rem;
+    color: white;
+    background-color: #0077b5; /* Cor do LinkedIn */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+
+/* Efeito hover no link */
+.Projeto a.clique:hover {
+    background-color: #005582;
+}
+
+
+  /* Estilo Formulário para contato*/
+
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 40px;
 }
+
+form input 
+form textarea {
+    width: 100%;
+    background-color: #294057;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #e7e9e8;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: aliceblue;
+
+}
+form textarea {
+    
+    max-height: 70px;
+
+
+
+}
+
+form .btn-enviar {
+    margin-top: 15px;
+    text-align: center;
+}
+
+form btn-enviar input {
+    type: submit;
+    width: 120px;
+    background-color: #000;
+    color: #000;
+}
+
